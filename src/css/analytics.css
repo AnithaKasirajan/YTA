@@ -1,0 +1,104 @@
+.analyticsContent {
+    padding: 63px 10px 10px 10px;
+    height: 100%;
+    display: flex;
+}
+
+.sideBar{
+    height: 100%;
+    background: #292929;
+    padding: 10px;
+    border-right: 10px solid #373737;
+}
+
+.menu{
+    height: 25%;
+    display: grid;
+}
+
+.menuButton{
+    background: #292929;
+    border-radius: 0px;
+    border: none;
+    color: #ffffff;
+    text-align: left;
+}
+.menuButton:hover{
+    background-color: #d3d3d3;
+    color: black;
+    font-weight: 700;
+}
+.menuButton:active,.menuButton.active, .menuButton:focus-visible{
+    background-color: yellow !important;
+    color: black !important;
+    font-weight: 700 !important;
+}
+
+.analytics{
+    height: 100%;
+    padding: 5px;
+    background: #404040;
+}
+
+.overviewDIV{
+    height: 100%;
+    padding: 10px;
+    background: #292929;
+}
+
+.overviewContents{
+    height: 88%;
+    overflow: auto;
+}
+
+.mainHeading{
+    color: yellow;
+}
+
+.subHeading{
+    color: white;
+}
+
+.type2Chart{
+    padding: 0px !important;
+    border-radius: 0px !important;
+}
+
+.chartButtonContainer{
+    display: grid;
+    border-right: 2px solid #ccc;
+    width: 20%;
+}
+
+.chartButton{
+    background: transparent;
+    border-radius: 0px;
+    border: none;
+    color: black;
+    text-align: left;
+}
+.chartButton:hover{
+    background-color: #d3d3d3;
+    color: black;
+    font-weight: 700;
+}
+.chartButton:active,.chartButton.active, .chartButton:focus-visible{
+    background-color: yellow !important;
+    color: black !important;
+    font-weight: 700 !important;
+}
+
+.videosContainer{
+    height: 100%;
+    background: #292929;
+    padding: 15px;
+}
+
+.videosContent{
+    height: 93%;
+    overflow: auto;
+}
+
+.videoScroll{
+    width:max-content;
+}

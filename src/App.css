@@ -1,0 +1,61 @@
+.App{
+  background: #373737;
+}
+
+.appMainNav{
+  display: flex ;
+  padding: 5px 25px 0px ;
+  justify-content: space-between ;
+  background: #292929;
+}
+
+#demoMenuButton {
+  font-size: 14px;
+  color: white;
+  background: transparent;
+  border: none;
+  padding: 8px 16px ;
+  margin-right: 1vw;
+  border-radius: 0px;
+}
+
+#demoMenuButton:hover{
+  background-color:#5a5a5a ;
+  color: #fff ;
+}
+
+#demoMenuButton:focus {
+  background-color:#5a5a5a ;
+  color: #fff ;
+}
+
+.dropdown-menu.show {
+  display: block;
+  border-radius: 0px;
+  padding: 2px;
+  background: cornsilk;
+  border: 0px;
+}
+
+.dropdown-item:focus, .dropdown-item:hover{
+  color: black !important;
+  background-color: yellow !important;
+  font-weight: 500 !important;
+}
+
+::-webkit-scrollbar {
+  width:4px;
+  height: 4px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 0, 0.275) ; 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: yellow; 
+}

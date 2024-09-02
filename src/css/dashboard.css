@@ -1,0 +1,238 @@
+.dashboardContent {
+    padding: 63px 10px 10px 10px;
+    height: 100%;
+    display: flex;
+}
+
+.details {
+    height: 100%;
+    background: #404040;
+    border-right: 10px solid #373737;
+}
+
+.profile {
+    height: 35%;
+    padding: 5px;
+    border-bottom: 10px solid #373737;
+}
+
+.channelLOGO {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.logo {
+    background: rgb(160, 160, 160);
+    border-radius: 150px;
+    height: 150px;
+    width: 150px;
+    border: 4px solid yellow;
+}
+
+.channelName {
+    font-size: larger;
+    color: yellow;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.subscribers {
+    font-size: small;
+    color: #fff;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.people {
+    height: 65%;
+    padding: 5px;
+}
+
+.peopleChannelName {
+    font-size: 24px;
+    color: yellow;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: left;
+    padding: 5px;
+}
+
+.followingChannel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0px;
+    padding: 12px 5px;
+    background: #474747;
+    border-radius: 15px;
+}
+
+.otherChannelLOGO {
+    background: rgb(160, 160, 160);
+    border-radius: 30px;
+    height: 30px;
+    width: 30px;
+    border: 3px solid yellow;
+}
+
+.otherChannelName {
+    font-size: 10px;
+    color: #fff;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.otherChannelSubscribers {
+    font-size: 10px;
+    color: #fff;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.statistics {
+    height: 100%;
+    padding: 10px;
+    background: #404040;
+    border-right: 10px solid #373737;
+}
+
+.title {
+    font-size: 24px;
+    font-family: system-ui;
+    font-weight: 600;
+    color: yellow;
+    padding-bottom: 10px;
+}
+
+.react-tabs {
+    height: 78%;
+}
+
+.react-tabs__tab-list {
+    border-bottom: 2px solid yellow !important;
+}
+
+.react-tabs__tab {
+    color: #fff;
+    font-size: small;
+}
+
+.react-tabs__tab--selected {
+    background: yellow !important;
+    border-color: transparent;
+    font-weight: 600;
+    color: black;
+}
+
+.react-tabs__tab:focus:after {
+    content: '';
+    position: absolute;
+    height: 5px;
+    left: -4px;
+    right: -4px;
+    bottom: -5px;
+    background: transparent !important;
+}
+
+.react-tabs__tab-panel--selected {
+    height: 92%;
+    overflow: auto;
+}
+
+.cardWithTotal {
+    position: relative;
+}
+
+.totalValue {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1rem;
+    font-weight: bold !;
+    color: #333;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.liveCount {
+    height: 100%;
+    padding: 10px;
+    background: #404040;
+}
+
+.liveSubCount {
+    height: 20%;
+}
+
+.subCountNumber {
+    font-size: 42px;
+    font-weight: bolder;
+    color: rgb(190 190 47);
+}
+
+.thumbnail {
+    width: 25px;
+    height: 25px;
+    background-color: #ccc;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 16px;
+}
+
+.liveLikesCount {
+    height: 38%;
+}
+
+.likesMetricCard {
+    height: 100% !important;
+}
+
+.likesMetricCardDetails {
+    height: 100% !important;
+    overflow: auto !important;
+}
+
+.ranked-list {
+    list-style-type: none;
+    counter-reset: item;
+    font-weight: 600;
+}
+
+.ranked-list li {
+    counter-increment: item;
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.ranked-list li::before {
+    content: counter(item) ". ";
+    position: absolute;
+    left: -2rem;
+    top: 0;
+}
+
+.css-bhp9pd-MuiPaper-root-MuiCard-root {
+    height: 100%;
+}
+
+.css-46bh2p-MuiCardContent-root {
+    padding: 10px !important;
+}
+
+.css-2ulfj5-MuiTypography-root {
+    font-weight: 550 !important;
+}
